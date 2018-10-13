@@ -4,9 +4,7 @@
 User can click on a flashcard question which then changes the view to its answer.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
-
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://i.imgur.com/fOfIm6f.gif" width=200><br>
 
 ## Required
 - [X] Create New Project in Android Studio
