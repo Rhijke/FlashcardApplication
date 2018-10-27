@@ -14,27 +14,45 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:background="#ff002d"
-        android:textColor="#ffff00"
         android:clickable="true"
         android:onClick="onClick1"
-        android:text="Who is the 44th president of the United States?"
         android:textAlignment="center"
+        android:textColor="#ffff00"
         android:textSize="40sp" />
 
     <TextView
         android:id="@+id/flashcard_answer"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:layout_alignTop="@+id/flashcard_question"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
         android:layout_marginBottom="311dp"
         android:background="#ffff00"
         android:clickable="true"
         android:onClick="onClick2"
-        android:text="Barack Obama"
         android:textAlignment="center"
         android:textColor="#ff002d"
         android:textSize="40sp"
         android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/addBtn"
+        android:layout_width="65dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="302dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="29dp"
+        android:src="@drawable/addbutton" />
+
+
 </RelativeLayout>
