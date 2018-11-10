@@ -7,6 +7,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/nextBtn"
+        android:layout_width="58dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="240dp"
+        android:src="@drawable/next_button" />
+
     <TextView
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
@@ -26,12 +40,6 @@
         android:layout_height="200dp"
         android:layout_alignTop="@+id/flashcard_question"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="311dp"
         android:background="#ffff00"
         android:clickable="true"
         android:onClick="onClick2"
@@ -53,6 +61,20 @@
         android:layout_marginEnd="17dp"
         android:layout_marginBottom="29dp"
         android:src="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/deleteBtn"
+        android:layout_width="65dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="278dp"
+        android:layout_marginBottom="228dp"
+        android:src="@drawable/trash_button" />
 
 
 </RelativeLayout>
